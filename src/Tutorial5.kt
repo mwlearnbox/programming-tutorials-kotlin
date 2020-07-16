@@ -1,40 +1,27 @@
-fun main() {
+fun main(){
 
-    println("Hello World")
+    var a = 10
+    var b = 5
 
-    val title = "The Amaze Apples"
-    val amount = 20
-    val price = 5.95f
-    val discount = 0.4f
-    val open = false
-    val colorOfTheCompany = "Red"
-    val location = "The Alley Way"
+    var addition = a + b
+    var subtraction = a - b
+    var multiplication = a * b
+    var division = a / b
+    var modulus = a % b
 
-    println(title)
-    println(colorOfTheCompany)
-    println(location)
-    println(amount)
-    println(price)
-    println(discount)
-    println(open)
+    println(addition)
+    println(subtraction)
+    println(multiplication)
+    println(division)
+    println(modulus)
 
-    val costOfProduction = 1.0f
-    val crates = 10
-    val applesPerCrate = amount / crates
-    println(applesPerCrate)
 
-    var profit = price - costOfProduction
-    profit *= amount
+    var amount = 20
+    var price  = 5.95
+    var cost = 1.05
+
+    var profit = (price - cost) * amount
     println(profit)
 
-    val bossSalaryPercentage = 0.9f
-    val bossSalary = profit * bossSalaryPercentage
-    println(bossSalary)
-
-    val moneyLeft = profit - bossSalary
-    println(moneyLeft)
-
-    val numberOfEmployee = 4
-    println(moneyLeft / numberOfEmployee)
 
 }
