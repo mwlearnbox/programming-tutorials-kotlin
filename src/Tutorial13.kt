@@ -3,7 +3,7 @@ fun main(){
     //make a var because we are going to be changing the variable
     var x = 10
 
-    //decrement by one
+    //decrement by one x-=1
     x--
 
     //increment by two
@@ -11,6 +11,7 @@ fun main(){
 
     //What x is now
     println("x = $x")
+
 
     //incrementing
     x = 10
@@ -21,7 +22,8 @@ fun main(){
     //What x is now
     println("x = $x")
 
-    //incrementing
+
+    //decrementing
     x = 10
     println("Pre Decrementing ${--x}")
     x = 10
@@ -29,4 +31,6 @@ fun main(){
 
     //What x is now
     println("x = $x")
+
+
 }
